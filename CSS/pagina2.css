@@ -1,0 +1,97 @@
+@media screen and (max-width:600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        height: 10vh;
+         background: rgba(0, 0, 0, 0.7);
+    }
+
+    footer{
+        display: none;
+    }
+
+    .main{
+        display: flex;
+        height: 60vh;
+        width: 50vw;
+        margin-top: 30vh;
+    }
+
+    .arriba{
+        display: flex;
+        height: 70vh;
+        width: 50vw;
+    }
+
+    .a{
+        display: flex;
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .b{
+        display: flex;
+        width: 50vw;
+        height: 30vh;
+        margin-top: -527px;
+        position: absolute;
+        right: -17px;
+        z-index: -1;
+    }
+
+    .abajo{
+        display: inline;
+    }
+
+    .opc-barras {
+        display: block;
+        font-size: 1.1em;
+        position: fixed;
+        right: 1.1vw;
+    }
+    
+    .opc-menu {
+        display: none;
+    }
+
+    .menu-adaptable {
+        width: 100vw;
+        height: 33vh;
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        top: 10vh;
+        left: 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu-oculto {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    li {
+        display: flex;
+        margin: 10px; 
+    }
+
+    .menu-hover:hover {
+        color: aqua;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    .op-menu-oculto{
+        color: aliceblue;
+    }
+    
+
+}

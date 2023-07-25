@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opc-barras{
+    display: none;
+}
+
+.main {
+    background-color: aquamarine;
+    height: 50vh;
+    width: 50vw;
+    float: right;
+}
+
+.logo-nav{
+    height: 10vh;
+}
+
+ul, li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 30px;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+}
+
+  a{
+    text-decoration: none;
+    color:black;
+}
+
+.arriba{
+    background-color: blue;
+    height: 25vh;
+    width: 50vw;
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+.abajo{
+    display: flex; 
+    justify-content: left;
+}
+
+.a{
+    background-color: green;
+    height: 25vh;
+    width: 25vw;
+    
+}
+
+.b{
+    background-color: greenyellow;
+    height: 25vh;
+    width: 25vw;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 40vh;
+    background-color:chocolate;
+    display: flex;
+}
+
+.menu1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.foot-izq{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-der{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-izq{
+    display: flex;
+    height: 13vh;
+    margin-top: 0;
+    align-items: center;
+    flex-direction: center;
+}
+.text-izq1{
+    display: flex;
+    height: 14vh;
+    margin-top: 0;
+    align-items: center;
+    flex-direction: center;
+}
+.idioma{
+    display: flex;
+    height: 13vh;
+    align-items: center;
+    flex-direction: center;
+}
+
+.redes{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin: 2vw;
+}
+
+header{
+    width: 100vw;
+}
+
+.contacto{
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos-contacto{
+    display: flex;
+    width: 25vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dato1{
+    display: flex;
+    height: 10vh;
+}
+
+.redes1{
+    height: 20vh;
+    width: 50vw; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto1{
+    height: 20vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.menu-adaptable{
+    display: none;
+}
+
+.ft-perfil1{
+    position: flex;
+    width: 40px;
+    height: 40px;
+    /* align-items: left;
+    justify-content: center; */
+    float: left;
+}
+
+a{
+    flex-direction: column;
+}
+
+.ft-perfil2{
+    position: flex;
+    width: 40px;
+    height: 40px;
+    /* align-items: left;
+    justify-content: center; */
+    float: left;
+    top: 50px;
+}
+
+.ft-perfil3{
+    position: flex;
+    width: 40px;
+    height: 40px;
+     align-items: left;
+    justify-content: center; 
+    float: left;
+}

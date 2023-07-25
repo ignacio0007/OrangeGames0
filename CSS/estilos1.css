@@ -1,0 +1,50 @@
+* {margin: 0;}
+
+nav{ width: 100vw; height: 10vh; 
+background: rgba(34,34,34, 0.5);
+display: flex;
+align-items: center; 
+justify-content: center; 
+flex-direction: row;
+position: fixed; 
+top: 0%; left: 0%;}
+
+header{ height: 100vh; width: 100vw; 
+display: flex; 
+align-items: center; 
+justify-content: center;
+background: url(../img1/fondo1.jpg) no-repeat;
+background-size: 100vw 100vh;}
+
+.clase1 {
+    width: 10vw; height: 10vh;
+    align-items: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.clase2{
+    width: 90vw; height: 10vh;
+    }
+.clase3{
+    width: 50vw; height: 100vh; margin-bottom: 80px;
+}
+.clase4{
+    width: 50vw; height: 100vh;
+}
+ul,li{ list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 10px;
+    align-items: center;
+    justify-content: right;}
+a{color: white; 
+text-decoration: none;}
+a:hover{color: blue;}
+
+@font-face{
+    font-family: xd;
+    src:url(../fuentes/Louis-George.ttf);
+}
+nav{font-family: xd;}

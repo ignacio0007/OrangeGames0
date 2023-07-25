@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Orange Games</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/pagina.css">
+    <link rel="stylesheet" href="CSS/pagina2.css"> 
+    <meta name="author" content="Faustino Ramos, Agustin Altez e Ignacio Villegas">
+    <meta name="description" content="Orange Games">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/1814118_graph_network_share_social_icon.png">
+     <!-- Script de efecto para desplegar opciones -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        //////////////////// Desplegar opciones cuando nos posicionamos sobre el menú de barras //////////////////////
+        $(document).ready(function () {
+            $(".opc-barras").click(function () {
+                $(".menu-adaptable").slideToggle("slow");
+            });
+        });
+        ////////////////////////////// Ocultar menú cuando hacemos clic en las opciones ////////////////////////////////
+        $(document).ready(function () {
+            $(".op-menu-oculto").click(function () {
+                $(".menu-adaptable").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <div>
+            <img class="logo-nav" src="images/logo.png"> 
+        </div>
+        <div class="menu1">
+            <ul class="menu">
+                <li class="opc-menu"><a href="#Perfil">Perfil</a></li>
+                <li class="opc-menu"><a href="#Comunidad">Comunidad</a></li>
+                <li class="opc-menu"><a href="#Biblioteca">Biblioteca</a></li>
+                <li class="opc-menu"><a href="#Tienda">Tienda</a></li>
+                <li class="opc-barras" ><a href="#barras">☰</a></li>
+            </ul>
+        </div>
+        <div class="menu-adaptable">
+            <ul class="menu-oculto">
+                <li class="menu-hover"><a class="op-menu-oculto" href="#home">Perfil</a></li>
+                <li class="menu-hover"><a class="op-menu-oculto" href="#about">Comunidad</a></li>
+                <li class="menu-hover"><a class="op-menu-oculto" href="#career">Biblioteca</a></li>
+                <li class="menu-hover"><a class="op-menu-oculto" href="#contact">Tienda</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <article class="main">
+            
+        </article>
+        <article class="izquierda">
+            <div class="arriba">
+               
+            </div>
+            <div class="abajo">
+                <div class="a">
+                    <img class="ft-perfil1" src="images/foto1.jpg">
+                    <img class="ft-perfil2" src="images/foto2.jpg">
+                    <img class="ft-perfil3" src="images/foto3.jpg">
+                </div>
+                <div class="b">
+    
+                </div>
+            </div>
+        </article>
+        
+    </header>
+    <footer>
+        <div class="foot-izq">
+            <h3 class="text-izq">Jugadores en línea: 1</h3>
+            <h3 class="text-izq1"><a href="#Sobre Nosotros">Sobre nosotros</a></h3>
+            <div class="idioma">
+                <select class="idioma1">
+                    <option value="1">Español</option>
+                    <option value="2">Inglés</option>
+                </select> 
+            </div>
+        </div>
+        <div class="foot-der">
+            <div class="redes1">
+                <a href="https://www.instagram.com/">
+                    <img class="redes" src="images/insta.png" alt="Descripción de la imagen">
+                </a>
+                <a href="https://twitter.com/home?lang=es">
+                    <img class="redes" src="images/twitter.png" alt="Descripción de la imagen">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img class="redes" src="images/youtube.png" alt="Descripción de la imagen">
+                </a>
+                <a href="https://www.twitch.tv/?lang=es">
+                    <img class="redes" src="images/twitch.png" alt="Descripción de la imagen">
+                </a>
+                <a href="https://www.tiktok.com/es/">
+                    <img class="redes" src="images/tiktok.png" alt="Descripción de la imagen">
+                </a>
+            </div>
+            <div class="contacto1">
+                <h3 class="contacto">Contacto:</h3>
+                <div class="datos-contacto">
+                    <h3 class="dato1">+598 099 999 999</h3>
+                    <h3 class="dato2">orangegames@gmail.com </h3>
+                </div>
+            </div>
+        </div>        
+    </footer>
+</body>
+</html>
